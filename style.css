@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+    
+}
 #container{
     height: auto;
     width: 540px;
@@ -8,7 +12,12 @@
     align-content: space-evenly ; 
     margin: 0 auto;
 }
-
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-content: space-evenly ; 
+    
+}
 #generate-sudoku{
     margin:auto;
     display:block;;
@@ -17,7 +26,7 @@
 
 #solve{
     margin:auto;
-    display:block;;
+    display:block;
 }
 
 #container div{
@@ -29,8 +38,14 @@
     text-align: center;
     vertical-align: middle;
     line-height: 60px; 
-    font-size: 30px; 
+    font-size: 20px; 
     color: green;
+    
+}
+.main{
+    display: flex;
+    margin-right: 5rem;
+    align-items: center;
     
 }
 
@@ -39,19 +54,19 @@
 }
 
 .lsb{
-    border-left: black 2px solid;
+    border-left: black 1.5px solid;
 }
 
 .bsb{
-    border-bottom: black 2px solid;
+    border-bottom: black 1.5px solid;
 }
 
 .rsb{
-    border-right: black 2px solid;
+    border-right: black 1.5px solid;
 }
 
 .tsb{
-    border-top: black 2px solid;
+    border-top: black 1.5px solid;
 }
 
 
